@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">
+            freeCodeCamp Survey Form
+        </h1>
+        <p class="description">
+            Thank you for taking the time to help us improve the platform
+        </p>
+    </header>
+    <form action="" class="survey-form">
+        <div class="container">
+            <p class="survey-form__text">Name</p>
+            <input type="text" class="survey-form__input" placeholder="Enter your name" required>
+            <p class="survey-form__text">Email</p>
+            <input type="email" class="survey-form__input" placeholder="Enter your Email" required>
+            <p class="survey-form__text">Age<span>(optional)</span></p>
+            <input type="number" class="survey-form__input" placeholder="Age" required>
+            <p class="survey-form__text">Which option best describes your current role?</p>
+            <input type="text" class="survey-form__input" placeholder="Select current role" required>
+            <p class="survey-form__text">Would you recommend freeCodeCamp to a friend?</p>
+            <label class="survey-form__label">
+                <input type="radio" class="survey-form__list" checked>
+                <span class="survey-form__span"></span>Definitely
+            </label>
+            <label class="survey-form__label">
+                <input type="radio" class="survey-form__list">
+                <span class="survey-form__span"></span>Maybe
+            </label>
+            <label class="survey-form__label">
+                <input type="radio" class="survey-form__list">
+                <span class="survey-form__span"></span>Not sure
+            </label>
+            <p class="survey-form__text">What is your favorite feature of freeCodeCamp?</p>
+            <input type="text" class="survey-form__input" placeholder="Select current role" required>
+                <p class="survey-form__text">What would you like to see improved? <span>(Check all that apply)</span></p>
+            <label class="survey-form__label">
+                <input type="checkbox" class="survey-form__list">
+                <span class="survey-form__span"></span>Front-end Projects
+            </label>
+            <label class="survey-form__label">
+                <input type="checkbox" class="survey-form__list">
+                <span class="survey-form__span"></span>Back-end Projects
+            </label>
+            <label class="survey-form__label">
+                <input type="checkbox" class="survey-form__list">
+                <span class="survey-form__span"></span>Data Visualization
+            </label>
+            <label class="survey-form__label">
+                <input type="checkbox" class="survey-form__list">
+                <span class="survey-form__span"></span>Challenges
+            </label>
+            <label class="survey-form__label">
+                <input type="checkbox" class="survey-form__list">
+                <span class="survey-form__span"></span>Open Source Community
+            </label>
+            <label class="survey-form__label">
+                <input type="checkbox" class="survey-form__list">
+                <span class="survey-form__span"></span>Gitter help rooms
+            </label>
+            <label class="survey-form__label">
+                <input type="checkbox" class="survey-form__list">
+                <span class="survey-form__span"></span>Videos
+            </label>
+            <label class="survey-form__label">
+                <input type="checkbox" class="survey-form__list">
+                <span class="survey-form__span"></span>City Meetups
+            </label>
+            <label class="survey-form__label">
+                <input type="checkbox" class="survey-form__list">
+                <span class="survey-form__span"></span>Wiki
+            </label>
+            <label class="survey-form__label">
+                <input type="checkbox" class="survey-form__list">
+                <span class="survey-form__span"></span>Forum
+            </label>
+            <label class="survey-form__label">
+                <input type="checkbox" class="survey-form__list">
+                <span class="survey-form__span"></span>Additional Courses
+            </label>
+            <p class="survey-form__text">Any comments or suggestions?</p>
+            <textarea  class="survey-form__comment" placeholder="Enter your comment here..."></textarea>
+            <button class="survey-form__btn" type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
